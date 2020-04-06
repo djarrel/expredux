@@ -11,6 +11,7 @@ const ExpenseList = props => {
                 return (
                     <ExpenseListItem
                         key={ expense.id }
+                        id={expense.id}
                         description={ expense.description }
                         amount={ expense.amount }
                         createdAt={ expense.createdAt }
